@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+        body {
+            background-color: bisque;
+        }
+        h1 {
+            background-color: pink;
+            text-align: center;
+            padding: 50px;
+            width: 50cm;
+            justify-content: space-between;
+        }
+
+        p {
+            text-align: center;
+            font-size: larger;
+            font-family: serif;
+        }
+
+        ul {
+            text-align: center;
+            font-size: larger;
+        }
+
