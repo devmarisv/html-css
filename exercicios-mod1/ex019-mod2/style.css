@@ -5,6 +5,11 @@ seletores
 em html = id, em css = # (serquilha)
 classes
 em css = . em html = class
+--------------------------------
+id = apenas um elemento
+class = vários elementos
+dá para colocar id e class no mesmo elemento, colocar só id, colocar só class e não colocar nada
+também dá pra colocar duas classes juntas, só separar por espaço
 */
 
 body {
@@ -13,7 +18,7 @@ body {
 }
 
 h1 {
-    color: rgba(95, 145, 95, 0.945);
+    color: #5f915ff1;
 }
 
 #principal {
@@ -24,4 +29,21 @@ h1 {
 
 h2 {
     color: black;
+}
+
+.basico {
+    color: #3c793cf1;
+
+}
+
+.intermediario {
+    color: #fcf376e1;
+}
+
+.avancado {
+    color: #e43333f1;
+}
+
+.destaque {
+    background-color: #eee169d2;
 }
