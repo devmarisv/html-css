@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+           background-color: aliceblue;
+           padding: 10px;
+           margin: 10px;
+        }
+        nav {
+            background-color: rgb(165, 161, 161);
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(161, 156, 156);
+        }
+
+        footer {
+            background-color: black;
+            color:aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin:0px
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>esportes política tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>notícias sobre o brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod accusantium illo explicabo fuga cum, corrupti nobis non. Porro aliquid tempore expedita cupiditate nostrum vitae minus excepturi nihil, nemo accusantium quidem.</p>
+                <aside>
+                    <p>artigo escrito por fulano ciclano</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por eu mesma</p>
+    </footer>
+
+</body>
+</html>
